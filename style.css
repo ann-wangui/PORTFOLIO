@@ -1,9 +1,75 @@
 body{
-    background-color:#C9CCD5;
+    background-color:#333;
     font-family: monospace;
     color: #C9CCD5;
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .name {
+    font-size: 17px;
+    margin-left: 10px;
+  
+  }
+  
+  .img1 {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+  }
+  
+  .about {
+    opacity: 100;
+    margin-bottom: 100px;
+    justify-content: center;
+    float: center;
+  
+  }
+  
+  .dev {
+    font-size: 30px;
+    font-weight: 600;
+  
+  }
+  .work button{
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+  }
+  /* .img5{
+    float: right;
+    margin-left:400px;
+    margin-top: 30%;
+  } */
+  
+  h1:hover{
+    color: blueviolet;
+  }
+  h1{
+    color: white;
+  }
 
 
 
