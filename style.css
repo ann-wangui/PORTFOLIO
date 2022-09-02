@@ -70,6 +70,75 @@ body{
   h1{
     color: white;
   }
+  /*styling of contact section*/
+#contact{
+  margin-top: 3%;
+  background-color: white;
+  margin-bottom: 2em;
+}
+
+.contact-heading{
+  font-weight: 900;  
+  font-family: 'Rock Salt', cursive;
+  color: wheat;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.contact-form-style{
+  border-color: wheat !important;
+}
+
+#send-msg{
+  background-color: wheat!important;
+}
+.contact-form{
+  text-align: center;
+}
+
+.form-control{
+  border: 2px solid wheat;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+input::placeholder {
+  color: wheat!important;
+  opacity: 0.6 !important;
+}
+
+.form-control::placeholder {
+  color: wheat !important;
+  opacity: 0.6 !important;
+}
+
+.submit-contactform{
+  background-color:black ;
+}
+
+.fa-phone{
+  animation:  icon 5s ease infinite;
+}
+
+@keyframes icon {
+    25%{
+        transform: translateY(-1.5rem);
+    }
+    50%{
+        transform: translateY(-1.5rem);
+    }
+}
+
+.fa-circle-arrow-up{
+  float: right;
+  color: wheat;
+}
+.fa-circle-arrow-up:hover{
+  color: black;
+  
+}
+
+
 
 
 
